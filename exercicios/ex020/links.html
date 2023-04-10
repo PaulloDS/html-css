@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a::before {
+            content: '➢ ';
+        }
+
+        .especial {
+            background-color: rgb(219, 98, 98);
+        }
+        
+        .especial::before {
+            content: '➔ ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/PaulloDS" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@paullopro4837"  target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'idroid.otf';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(124, 161, 140);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2{
+    background-color: rgba(108, 212, 153, 0.507);
+}
+
+.conteudo{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    padding: 2px 20px;
+}
+
+header{
+    margin: 0;
+    padding: 20px;
+    width: 100vw;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(43, 153, 91);
+    color: white;
+    border-style: none;
+}
+
+.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(33, 116, 70);
+    padding: 11px;
+    text-align: start;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    border: solid rgb(33, 118, 67);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.tit-cont{
+    text-align: start;
+    color: rgb(18, 80, 46);
+    font-family: 'idroid.otf';
+    text-align: none;
+}
+
+#video{
+    background-color: rgb(18, 80, 46);
+    padding: 20px;
+}
+
+.extra-lista{
+    display: flex;
+}
+

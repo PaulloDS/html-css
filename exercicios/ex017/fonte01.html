@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+
+        /* https://www.w3schools.com/cssref/css_websafe_fonts.php */
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas Relativas
+            em (altura m), ex (altura x), rem, vw, vh, %
+            16px geralmente - 1em
+            usar PX ou EM
+            */
+
+            /*
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            */
+
+            /* lighter, normal, bold, bolder
+            100 - 900 (tamanho com numero)
+            weight = peso, widht = largura, height = altura*/
+
+            font: italic normal 1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1, h2 {
+            text-decoration: underline;
+            font-family: monospace;
+            font-weight: bolder;
+            /* shorthando font
+
+            - font-style -> font-weight -> font-size -> font-family*/
+
+            /* font: bolder monospace; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo aliquid vitae sit veniam laudantium! Quasi repudiandae labore sequi culpa nostrum a non, numquam cumque voluptatem eum saepe ipsam? Molestias, adipisci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur vel veritatis omnis, ut velit sit dolore voluptatibus sapiente. Cum enim eos reprehenderit repudiandae qui recusandae praesentium inventore minima quidem quis?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, accusantium ad necessitatibus eum consectetur ex culpa dicta quasi deleniti sapiente, eos fugit quos, blanditiis similique! Ipsa hic quia placeat explicabo?</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum libero sunt saepe reprehenderit, vitae quod nihil reiciendis obcaecati numquam corporis minus, nemo odio possimus error impedit. Est, assumenda nam?</p>
+</body>
+</html>
