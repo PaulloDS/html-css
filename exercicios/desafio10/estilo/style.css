@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@700&display=swap');
+
 @font-face {
-    font-family: 'Android';
+    font-family: 'Androidss';
     src: url('/desafio10/fontes/idroid.otf');
-    font-weight: normal;
+    font-weight: uppercase;
 }
 
 :root{
@@ -18,7 +20,7 @@
 
     --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', cursive;
-    --font-droid: 'Android', cursive;
+    --font-droid: 'Sora', sans-serif;
 }
 
 * {
@@ -66,6 +68,7 @@ h1{
     font-weight: normal;
     color: var(--cor5);
     font-family: var(--font-droid);
+    text-transform: uppercase;
 }
 
 nav{
@@ -159,6 +162,7 @@ article h2{
     color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
+    text-transform: uppercase;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 5px;
 }
