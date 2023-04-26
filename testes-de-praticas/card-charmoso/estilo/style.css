@@ -5,14 +5,13 @@
 
 body{
     background-image: linear-gradient(to right, #202bc2, rgb(197, 23, 197));
-}
-
-.flip-card{
-    margin: auto;
     margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flip-card{
     background-color: transparent;
     width: 300px;
     height: 300px;
